@@ -1,0 +1,49 @@
+body {
+	background: white;
+	width: 100%;
+}
+
+.wrapper {
+	margin: 0 auto;
+}
+
+h2 {
+	width: 100%;
+	text-align: center;
+}
+
+thead {
+	background: #fbfbfb;
+	font-size: 1.1em;
+}
+
+.table tbody tr:nth-child(0) {
+	border-bottom: 2px dashed darkgray;
+}
+/* 
+.table tbody tr:nth-child(-n+3) {
+	background: #9ced9d;
+} */
+
+.table tbody tr:nth-child(4) {
+    border-top: 2px dashed darkgray;
+    border-bottom: 2px dashed darkgray;
+}
+
+.table tbody tr:nth-child(18) {
+	border-top: 2px dashed darkgray;
+}
+/* .table tbody tr:nth-child(n+18) {
+	background: #e45e5e;
+} */
+
+.table-condensed{
+    font-size: 13px;
+  }
+
+  .name {
+      font-weight: bold;
+  }
+  .points {
+      font-weight: bold;
+  }
